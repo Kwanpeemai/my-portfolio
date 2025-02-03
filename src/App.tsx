@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route, Navigate, Router } from "react-router-dom";
+import { HashRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 // import Home from "./pages/Home";
 // import Edu from "./pages/Edu";
 // import MyProject from "./pages/MyProject";
@@ -18,6 +18,7 @@ const App: React.FC = () => {
         <Route path="/" element={<Navigate to="/my-portfolio" />} />
         <Route path="/my-portfolio" element={<Portfolio />} />
       </Routes>
+      
     </div>
   );
 };

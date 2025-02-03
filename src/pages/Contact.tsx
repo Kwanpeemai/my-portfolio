@@ -1,22 +1,32 @@
 import React from "react";
+// import ReactDOM from 'react-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPhone, faAt } from "@fortawesome/free-solid-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+
 
 const Contact: React.FC = () => {
   return (
-    <div id="contact" className="home-container">
-      <div className="image-box">
+    <div id="contact" className="contact-container">
+      <div className="contact-image-box">
         <img src="/my-portfolio/images/myimage.JPG" alt="Image" />
       </div>
-      <div className="text-box">
-        <div className="head-with-line">
-        <h1>My</h1>
-        <div className="dashline">
-        </div>
-        </div>
-        <h1>Portfolio</h1>
+      <div className="contact-box">
+        <h1>My Contact</h1>
+        <div className="dashline"></div>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud
+          <FontAwesomeIcon icon={faPhone} /> &nbsp; 091-843-1741
+        </p>
+        <br />
+        <p>
+          <FontAwesomeIcon icon={faGithub} /> &nbsp;  
+          <a href="https://github.com/Kwanpeemai" target="_blank" rel="noopener noreferrer">
+            github.com/Kwanpeemai
+          </a>
+        </p>
+        <br />
+        <p>
+        <FontAwesomeIcon icon={faAt}/> &nbsp; kwanpuengchai@gmail.com
         </p>
       </div>
     </div>

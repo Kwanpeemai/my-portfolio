@@ -4,7 +4,7 @@ const Home: React.FC = () => {
   return (
     <div id="home" className="home-container">
       <div className="image-box">
-        <img src="/my-portfolio/images/img.svg" alt="Image" />
+        <img src="/my-portfolio/images/10.svg" alt="Image" />
       </div>
       <div className="text-box">
         <div className="head-with-line">
@@ -15,7 +15,7 @@ const Home: React.FC = () => {
         <p>
           I am a 3rd-year Computer Science student passionate about Full Stack
           Development. With experience in both back-end and front-end, I focus
-          on building scalable solutions and seamless user experiences. I thrive
+          on building scalable solutions and seamless user experiences.  I thrive
           in collaborative environments and continuously seek to learn and grow.
         </p>
       </div>

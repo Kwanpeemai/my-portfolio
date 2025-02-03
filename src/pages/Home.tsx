@@ -4,7 +4,7 @@ const Home: React.FC = () => {
   return (
     <div id="home" className="home-container">
       <div className="image-box">
-        <img src="/src/assets/img.svg" alt="Image" />
+        <img src="/my-portfolio/images/img.svg" alt="Image" />
       </div>
       <div className="text-box">
         <div className="head-with-line">

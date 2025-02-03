@@ -4,7 +4,7 @@ const Contact: React.FC = () => {
   return (
     <div id="contact" className="home-container">
       <div className="image-box">
-        <img src="/src/assets/myimage.JPG" alt="Image" />
+        <img src="/my-portfolio/images/myimage.JPG" alt="Image" />
       </div>
       <div className="text-box">
         <div className="head-with-line">

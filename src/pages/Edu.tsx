@@ -6,12 +6,12 @@ const Edu: React.FC = () => {
       <div id="edu" className="edu-container">
         <div className="edu-images-container">
           <div className="box box1">
-            <img src="/src/assets/nssc.svg" alt="Image" />
+            <img src="/my-portfolio/images/nssc.svg" alt="Image" />
             <div className="hidden-box"></div>
           </div>
           <div className="box box2">
             <div className="hidden-box"></div>
-            <img src="/src/assets/su.svg" alt="Image" />
+            <img src="/my-portfolio/images/su.svg" alt="Image" />
           </div>
         </div>
         <div className="box box3">

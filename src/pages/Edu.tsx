@@ -22,7 +22,7 @@ const Edu: React.FC = () => {
               <p>1.</p>
               <p>
                 Nakhonsawan School, Nakhonsawan, Thailand <br />
-                High School Diploma (Science-Mathematics Program) <br />
+                High School Diploma <br /> (Science-Mathematics Program) <br />
                 Graduated: 2021 GPA: 3.89
               </p>
             </div>
@@ -31,7 +31,7 @@ const Edu: React.FC = () => {
               <p>
                 Silpakorn University, Nakhonpathom, Thailand <br />
                 Bachelor of Science(Computer Science) <br />
-                Expected Graduation: 2026 GPA: 3.50 (5 semesters)
+                Expected Graduation: 2026 <br /> GPA: 3.50 (5 semesters)
               </p>
             </div>
           </div>
